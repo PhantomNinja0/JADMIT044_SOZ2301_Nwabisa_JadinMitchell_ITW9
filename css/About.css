@@ -1,0 +1,123 @@
+    *{
+    margin: 0;
+
+    font-family:  "Verdana", sans-serif;
+    }
+    body{
+        color: #22181c;
+        overflow-x: hidden;
+    }
+    .select{
+      display: flex;
+    }
+    .banner {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin-top: 100px;
+      min-width: 600px;
+      display: flex;
+      width: 100%;
+      padding: 70px;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      font-size: 20px;
+    }
+    .leftsection{
+        width: 100%;
+        padding: 20px;
+        height: 100%;
+    }
+    .rightsection h3 a{
+        color: purple;
+        text-decoration: none;
+    }
+    header{
+      z-index: 999;
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin: auto;
+    	margin-left: 10%;
+      width: 1366px;
+      display: flex;
+      align-items: center;
+      transition: 0.5s ease;
+    	animation-duration: 1s;
+    	animation-name: load;
+    }
+      header .navigation{
+      	position: relative;
+      	margin-left: 18%;
+      }
+
+      header .navigation .navigation-items{
+        padding-bottom: 30px;
+      }
+
+      header .navigation .navigation-items a{
+        position: relative;
+        color: white;
+        font-size: 1.2em;
+        margin: 20px;
+        font-weight: 1000;
+        text-decoration: none;
+        margin-left: 20px;
+        transition: 0.3s ease;
+      }
+
+      header .navigation .navigation-items a:before{
+        content: '';
+        position: absolute;
+        background: white;
+        width: 0;
+        height: 3px;
+        bottom: 0;
+        left: 0;
+        transition: 0.3s ease;
+      }
+
+      header .navigation .navigation-items a:hover:before{
+        width: 100%;
+      }
+
+      footer .link::before {
+        content: '';
+        position: absolute;
+        background: rgb(73, 255, 73);
+        width: 0;
+        height: 3px;
+        bottom: 0;
+        left: 0;
+        transition: 0.3s ease;
+      }
+
+      footer .link:hover::before {
+        width: 100%;
+      }
+
+    .mainmenu{
+        margin-left: 0px;
+        color: #22181c;
+    }
+    .menu{
+        color: #f6e8ea;
+        text-decoration: none;
+    }
+    .link{
+        color:rgb(73, 255, 73);
+        position: relative;
+        font-size: 1.2em;
+        margin: 20px;
+        font-weight: 500;
+        text-decoration: none;
+        margin-left: 30px;
+        transition: 0.3s ease;
+    }
+    .middle{
+      width: 500px;
+      margin: auto;
+      padding: 10px;
+      font-size: 20px;
+    }
