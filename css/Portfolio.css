@@ -680,15 +680,45 @@ footer{
     padding: 100px 100px;
   }
 	.space{
-		height: 650px;
+		height: 65px;
 	}
-
+  .ganyu{
+    position: relative;
+    width: 150px;
+    top: -10px;
+  }
+  .shape{
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: 0;
+    margin-bottom: 150px;
+  }
 .top {
 	position: absolute;
 	top: 0;
 	left: 0;
  	width: 100%;
   height: 650px;
+}
+
+.contactForm{
+  position: relative;
+  top: 100px;
+  margin: auto;
+  width:60%;
+  padding: 40px;
+  background: white;
+}
+
+.contactinfo{
+  margin: auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 42% 42%;
+  column-gap: 15%;
+  row-gap: 60px;
+  transition: 0.3s ease;
 }
 
 .logo{
@@ -705,9 +735,10 @@ footer{
 }
 
 .fate{
-	margin-left: 5%;
+	position: absolute;
+  left: 3%;
 	z-index: 003;
-	animation-delay: 1.5s;
+	animation-delay: 1.2s;
 	animation-duration: 1s;
 	animation-name: down;
 }
@@ -742,15 +773,23 @@ footer{
 	animation-duration: 1.5s;
 	animation-name: albedo;
 	top: 210px;
-	left: 0;
+	left: -200px;
 	width: 225px;
+}
+
+footer{
+  max-width: 100%;
+  display: block;
+  margin-top: 50px;
+  padding: 10px;
+  color: #333;
 }
 
 .greeting{
 	margin-top: 170px;
 	z-index: 003;
 	font-weight: bold;
-	font-size: 2.3em;
+	font-size: 1.8em;
 	color: white;
 	animation-duration: 1.5s;
 	animation-name: greeting;
@@ -783,7 +822,7 @@ footer{
         opacity: 1;
      }
   to {
-    margin-top : 310px;
+    margin-top : 360px;
   }
 }
 
@@ -804,7 +843,7 @@ footer{
         opacity: 1;
      }
   to {
-   margin-left: 51%;
+   margin-left: 40%;
   }
 }
 
